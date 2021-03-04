@@ -16,7 +16,7 @@ protocol DiskDataSourceInterface {
 class DiskDataSource {
 
     static var groupLocation: URL {
-        FileManager.default.containerURL(forSecurityApplicationGroupIdentifier: "group.com.chuquimianproductions.Blocky")!
+        FileManager.default.containerURL(forSecurityApplicationGroupIdentifier: "group.com.vzzoo.Blocky")!
     }
 
     let location: URL
